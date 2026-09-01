@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #080b18;
+    color: white;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #0b1020;
+    border-bottom: 1px solid #252b45;
+}
+
+header h2 {
+    color: #8b7cff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #8b7cff;
+}
+
+
+
+
+.photo {
+    min-height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 60px 10%;
+
+    background: radial-gradient(
+        circle at 75% 50%,
+        #222452,
+        #080b18 45%
+    );
+}
+
+.intro {
+    max-width: 550px;
+}
+
+.intro h1 {
+    font-size: 50px;
+    color: #9b8cff;
+    margin-bottom: 25px;
+}
+
+.intro p {
+    color: #c5c8d8;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    background: #8b7cff;
+    color: white;
+
+    padding: 12px 22px;
+    margin-top: 15px;
+
+    text-decoration: none;
+    border-radius: 6px;
+
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #6f60e8;
+}
+
+
+
+.profile img {
+    width: 280px;
+    height: 280px;
+
+    object-fit: cover;
+    border-radius: 50%;
+
+    border: 3px solid #8b7cff;
+
+    box-shadow: 0 0 35px #5145a5;
+}
+
+
+section {
+    padding: 70px 10%;
+}
+
+.title {
+    text-align: center;
+    color: #9b8cff;
+    margin-bottom: 35px;
+}
+
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #11162a;
+    border: 1px solid #292f4b;
+
+    padding: 25px;
+    width: 30%;
+
+    border-radius: 10px;
+}
+
+.card:hover {
+    border-color: #8b7cff;
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #8b7cff;
+    margin-bottom: 15px;
+}
+
+.card h4 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #aeb3c7;
+    font-size: 14px;
+}
+
+
+
+
+.contact {
+    text-align: center;
+    background: #0d1224;
+}
+
+.contact p {
+    color: #b8bdcf;
+    margin: 12px;
+}
+
+
+.linkedin{
+    color: #8b7cff;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #050710;
+    color: #777
+}
